@@ -1,0 +1,73 @@
+.twenty-five {
+    width: 25%
+}
+.fifty {
+    width: 50%
+}
+.seventy-five {
+    width: 75%;
+}
+.hundred {
+    width: 100%;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 200px;
+    height: 50px;
+}
+button {
+    border: solid;
+    border-width: 0px 1px 1px 0px;
+    cursor: pointer;
+}
+button:hover {
+    filter: brightness(110%);
+}
+.second.row {
+    border: solid;
+    border-width: 1px 0px 0px 0px;
+}
+.calc {
+
+}
+.screen {
+    box-sizing: border-box;
+    display: block;
+    padding-right: 5px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: right;
+}
+.screen-content {
+    font-family: "Courier New", Courier, monospace;
+    width: fit-content;
+    display: inline-flex;
+    font-size: 20px;
+    margin-top: 15px; 
+    justify-content: center;
+}
+.white {
+    background-color: #d8d9db;
+    color: black;
+    font-size: 20px;
+}
+.orange {
+    background-color: #dd8d37;
+    color: white;
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+    font-size: 20px;
+}
+.second.row {
+    border-width: 0px 0px 0px 0px;
+}
+.sixth button {
+    border-width: 0px 0px 0px 0px;
+}
+.sixth button.white {
+    border-width: 0px 1px 0px 0px;
+}
